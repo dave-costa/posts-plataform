@@ -1,0 +1,52 @@
+$white: #FFFFFF
+$gray-100: #e1e1e6
+$gray-300: #a8a8b3
+$gray-700: #29292e
+$gray-900: #121214
+$cian-500: #61dafb
+$yellow-500: #eab417
+.contentContainer 
+    max-width: 1120px
+    margin: 0 auto
+    padding: 0 2rem
+    height: calc( 100vh - 5rem )
+
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+    img
+        animation: imgup 2s
+        @keyframes imgup
+            0%
+                opacity: 0
+            100%
+                transition: .1s
+                opacity: 1
+
+
+.hero 
+    max-width: 600px
+
+    > span
+        font-size: 1.5rem
+        font-weight: bold
+    h1
+        font-size: 4.5rem
+        line-height: 4.5rem
+        font-weight: 900
+        margin-top: 2.5rem //para distanciar do texto de cima
+
+        span
+            color: $cian-500
+
+    p
+        font-size: 1.5rem
+        line-height: 2.25rem
+        margin-top: 1.5rem
+        span
+            color: $cian-500
+            font-weight: bold
+    
+    button
+        margin-top: 2.5rem

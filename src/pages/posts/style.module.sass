@@ -1,0 +1,48 @@
+$white: #FFFFFF
+$gray-100: #e1e1e6
+$gray-300: #a8a8b3
+$gray-700: #29292e
+$gray-750: #323238
+$gray-900: #121214
+$cian-500: #61dafb
+$yellow-500: #eab417
+    
+.container 
+    max-width: 1120px
+    margin: 0 auto
+    padding: 0 2rem
+
+
+.post
+    max-width: 720px
+    margin: 5rem auto 0
+
+    a 
+        display: block
+
+        & + a 
+            margin-top: 2rem
+            padding-top: 2rem
+            border-top: 1px solid $gray-750
+
+        time 
+            font-size: 1rem
+            display: flex
+            align-items: center
+            color: $gray-300
+
+        strong
+            display: block
+            font-size: 1.5rem
+            margin-top: 1rem
+            line-height: 2rem
+            transition: .3s
+        p
+            color: $gray-300
+            margin-top: .5rem
+            line-height: 1.625rem
+
+        &:hover
+            color: $yellow-500
+    
+

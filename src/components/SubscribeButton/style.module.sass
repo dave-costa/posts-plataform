@@ -1,0 +1,34 @@
+$gray-900: #121214
+
+$yellow-500: #eab417
+    
+.subscribeButton
+    width: 260px
+    height: 4rem
+    border: 0
+    border-radius: 2rem
+    background: $yellow-500
+    color: $gray-900
+    font-size: 1.25rem
+    font-weight: bold
+    display: flex
+    align-items: center
+    justify-content: center
+    transition: .2s
+    animation: buttonUp 2s
+    &:hover
+        filter: brightness(.8)    
+        transition: .2s
+
+    @keyframes buttonUp
+        0%
+            transform: translateX(-300px)
+
+        100%
+            transition: .2s
+            transform: translateX(0)
+            
+   
+    
+
+    

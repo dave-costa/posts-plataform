@@ -1,0 +1,56 @@
+$white: #FFFFFF
+$gray-100: #e1e1e6
+$gray-300: #a8a8b3
+$gray-700: #29292e
+$gray-900: #121214
+$cian-500: #61dafb
+$yellow-500: #eab417
+    
+    
+.headerContainer 
+    height: 5rem
+    border: 1px solid $gray-700
+
+.headerContent
+    max-width: 1120px
+    height: 5rem
+    margin: 0 auto
+    padding: 0 2rem
+
+    display: flex
+    align-items: center
+
+
+    nav
+        margin-left: 5rem
+        height: 5rem
+        a 
+            display: inline-block
+            position: relative
+            padding: 0 0.5rem
+            height: 5rem
+            line-height: 5rem
+            color: $gray-300
+            cursor: pointer
+            transition: .4s
+
+            & + a 
+                margin-left: 2rem
+            &:hover
+                color: $white
+
+            &.active 
+                color: $white
+                font-weight: bold
+            &.active::after
+                content: ''
+                height: 3px
+                border-radius: 3px 3px 0 0
+                width: 100%
+                position: absolute
+                bottom: 1px
+                left: 0
+                background: $yellow-500
+    
+    button
+        margin-left: auto
