@@ -9,4 +9,4 @@
 - [x] Prismic(CMS)
 - [x] NEXTJS
 - [x] REACT
-- [x] Servelles
+- [x] Serverless
