@@ -6,6 +6,7 @@
 
 - [x] Stripe (payment methods)
 - [x] SCSS
+- [x] Next auth
 - [x] Prismic(CMS)
 - [x] NEXTJS
 - [x] REACT
